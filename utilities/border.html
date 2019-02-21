@@ -1,0 +1,2995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Border - VA.gov Design System </title>
+  <meta name="description" content="Border">
+
+  <link rel="stylesheet" href="/vets-design-system-documentation/formation.min.css">
+  <link rel="stylesheet" href="/vets-design-system-documentation/assets/stylesheets/application.css">
+
+  <link rel="canonical" href="https://www.vets.gov/vets-design-system-documentation/utilities/border.html">
+  <link rel="alternate" type="application/rss+xml" title="VA.gov Design System" href="https://www.vets.gov/vets-design-system-documentation/feed.xml">
+
+
+  <script src="/vets-design-system-documentation/vendor/javascripts/uswds.min.js"></script>
+
+</head>
+
+
+  <body>
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+
+<section class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="" style="padding-left:24px;">
+      <img src="/vets-design-system-documentation/img/favicons/favicon-57.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+      <button class="usa-accordion-button usa-banner-button"
+        aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here's how you know</span>
+      </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/vets-design-system-documentation/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/vets-design-system-documentation/img/icon-https.svg" alt="Https">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br>
+            The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header class="site-c-header" role="banner">
+
+  <div class="site-l-wrapper">
+    <div class="site-c-header__masthead">
+      <div class="site-c-header__logo" id="extended-logo">
+        <em class="site-c-header__logo-text">
+          <a class="site-c-header__logo-link" title="VA.gov Design System homepage" href="/vets-design-system-documentation/"><strong>VA.gov</strong> | Design System</a>
+        </em>
+      </div>
+      <div class="site-c-header__utility-links">
+        <a href="/vets-design-system-documentation/documentation/whats-new.html" class="usa-button site-button-inverse">What’s new?</a>
+        <a href="/vets-design-system-documentation/documentation/code-and-design.html" class="usa-button vads-u-margin--0">Get code and design files</a>
+      </div>
+      <button class="site-c-header__open-mobile-nav-button" id="open-mobile-nav-button" aria-label="Open navigation menu">Menu</button>
+    </div>
+    <nav class="site-c-header__nav">
+      <ul class="site-c-header__nav-list">
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/documentation">Documentation</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/content-style-guide">Content</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/design">Design</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/components">Components</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link  current " href="/vets-design-system-documentation/utilities">Utilities</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/patterns">Patterns</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/layout">Layout</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="site-c-mobile-nav" id="mobile-nav">
+  <button id="close_mobile_nav_button" class="site-c-mobile-nav__close-button" type="button" aria-label="Close this menu"><i class="fas fa-times"></i></button>
+  <div class="usa-accordion ">
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button"
+      aria-expanded="false" aria-controls="nav-a1">Documentation</button>
+  </p>
+  <div id="nav-a1" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/code-and-design.html">Code and design files</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/designers.html">For designers</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/naming.html">Naming Convention</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/whats-new.html">What’s New?</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a2">
+      Content
+    </button>
+  </p>
+  <div id="nav-a2" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/abbreviations-and-acronyms.html">Abbreviations and acronyms</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/buttons.html">Button labels</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/capitalization.html">Capitalization</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/content-principles.html">Content principles</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/contractions.html">Contractions</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/dates-and-numbers.html">Dates and numbers</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/error-messages.html">Error messages</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/links.html">Links</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/lists.html">Lists</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/naming.html">Naming</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/page-titles-and-section-titles.html">Page titles and section titles</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/phone-numbers-and-time-zones.html">Phone numbers and time zones</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/punctuation.html">Punctuation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/seo.html">Writing for SEO</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/ui-elements.html">User interface elements</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/va-forms.html">VA forms</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/we-us-you.html">We, Us, You</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/web-policies-and-directives.html">Web policies and directives</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/word-list.html">Word list</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a3">
+      Design
+    </button>
+  </p>
+  <div id="nav-a3" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/color-palette.html">Color Palette</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/icons.html">Icons</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/spacing-units.html">Spacing units</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/typography.html">Typography</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a4">
+      Components
+    </button>
+  </p>
+  <div id="nav-a4" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/accordions.html">Accordions</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/additional-info.html">Additional Info</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/address-block.html">Address Block</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/alertboxes.html">Alert Boxes</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/breadcrumbs.html">Breadcrumbs</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/buttons.html">Buttons</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/global-navigation.html">Global Navigation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/horizontal-rules.html">Horizontal Rules</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/labels.html">Labels</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/lists.html">Lists</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/loading-indicators.html">Loading Indicators</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/modal.html">Modal</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/pagination.html">Pagination</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/progress-bars.html">Progress Bars</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/sidenav.html">Sidenav</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/tables.html">Tables</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="true" aria-controls="nav-a5">
+      Utilities
+    </button>
+  </p>
+  <div id="nav-a5" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/background-color.html">Background color</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link  current " href="/vets-design-system-documentation/utilities/border.html">Border</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/color.html">Color</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/display.html">Display</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/flexbox.html">Flexbox</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-family.html">Font family</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-size.html">Font size</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-style.html">Font style</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-weight.html">Font weight</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/height-and-width.html">Height and width</a>
+            </li>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/line-height.html">Line height</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/margins.html">Margins</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/measure.html">Measure</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/padding.html">Padding</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/text-align.html">Text align</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/text-decoration.html">Text decoration</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/visibility.html">Visibility</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a6">
+      Patterns
+    </button>
+  </p>
+  <div id="nav-a6" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/color-usage.html">Color usage</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/content-presentation.html">Content presentation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/form-feedback.html">Form feedback</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/form-templates.html">Form templates</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/navigation.html">Navigation</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a7">
+      Layout
+    </button>
+  </p>
+  <div id="nav-a7" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/flexbox-grid.html">Flexbox Grid</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/grid.html">Float Grid</a>
+            </li>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+    </ul>
+  </div>
+
+</div>
+</div>
+
+    <div class="site-c-content">
+      
+      <div class="site-c-content__nav">
+        
+          <ul class="site-c-sidenav-list">
+  <li class="site-c-sidenav-list__item ">
+    <a class="site-c-sidenav-list__link " href="index.html">Overview</a>
+    
+  </li>
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/background-color.html">Background color</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item  current ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/border.html">Border</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#border-shorthand">Border shorthand</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#border-style">Border style</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#border-color">Border color</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/color.html">Color</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/display.html">Display</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/flexbox.html">Flexbox</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#flex">Flex</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#flex-direction">Flex direction</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#flex-wrap">Flex wrap</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#align-items">Align items</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#flex-direction">Flex direction</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#justify-content">Justify content</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#align-content">Align content</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#order">Order</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/font-family.html">Font family</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/font-size.html">Font size</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/font-style.html">Font style</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/font-weight.html">Font weight</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/height-and-width.html">Height and width</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#height">Height</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#min-height">Min-height</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#max-height">Max-height</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#width">Width</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#min-width">Min-width</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#max-width">Max-width</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/line-height.html">Line height</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/margins.html">Margins</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-on-all-sides">Margin on all sides</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-top-and-bottom">Margin top and bottom</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-top">Margin top</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-bottom">Margin bottom</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-right-and-left">Margin right and left</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-right">Margin right</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#margin-left">Margin left</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/measure.html">Measure</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/padding.html">Padding</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-on-all-sides">Padding on all sides</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-top-and-bottom">Padding top and bottom</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-top">Padding top</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-bottom">Padding bottom</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-right-and-left">Padding right and left</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-right">Padding right</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#padding-left">Padding left</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/text-align.html">Text align</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/text-decoration.html">Text decoration</a>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/utilities/visibility.html">Visibility</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#responsive-prefixes">Responsive prefixes</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+</ul>
+        
+      </div>
+      <div class="site-c-content__content">
+        <main id="main-content" class="site-l-content-wrapper--styleguide">
+          <h1 id="border">Border</h1>
+
+<div class="va-introtext">
+  <p>Set width, style, and color of an item’s borders.</p>
+</div>
+
+<h2 id="border-shorthand">Border shorthand</h2>
+
+<p>The border shorthand utility provides border widths for all sides, as well as <code class="highlighter-rouge">top</code>, <code class="highlighter-rouge">right</code>, <code class="highlighter-rouge">bottom</code>, and <code class="highlighter-rouge">left</code>, using <code class="highlighter-rouge">solid</code> as the default <code class="highlighter-rouge">border-style</code>.</p>
+
+<div class="site-c-showcase">
+  <h3>Border on all sides</h3>
+  <div class="vads-l-row">
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--0
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">0</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--0" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--1px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">1px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--1px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--2px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">2px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--2px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--3px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">3px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--3px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--4px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">4px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--4px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--5px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">5px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--5px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--7px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">7px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--7px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border--10px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">10px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border--10px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h3>Border top</h3>
+  <div class="vads-l-row">
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--0
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">0</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--0" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--1px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">1px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--1px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--2px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">2px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--2px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--3px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">3px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--3px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--4px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">4px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--4px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--5px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">5px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--5px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--7px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">7px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--7px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-top--10px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">10px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-top--10px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h3>Border right</h3>
+  <div class="vads-l-row">
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--0
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">0</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--0" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--1px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">1px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--1px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--2px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">2px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--2px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--3px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">3px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--3px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--4px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">4px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--4px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--5px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">5px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--5px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--7px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">7px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--7px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-right--10px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">10px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-right--10px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h3>Border bottom</h3>
+  <div class="vads-l-row">
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--0
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">0</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--0" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--1px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">1px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--1px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--2px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">2px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--2px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--3px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">3px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--3px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--4px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">4px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--4px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--5px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">5px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--5px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--7px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">7px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--7px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-bottom--10px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">10px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-bottom--10px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h3>Border left</h3>
+  <div class="vads-l-row">
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--0
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">0</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--0" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--1px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">1px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--1px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--2px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">2px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--2px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--3px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">3px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--3px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--4px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">4px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--4px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--5px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">5px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--5px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--7px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">7px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--7px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-left--10px
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">10px</p>
+    <div class="vads-u-background-color--gray-lightest  vads-u-border-left--10px" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+  </div>
+</div>
+
+<h2 id="border-style">Border style</h2>
+<p><strong>Note:</strong> To use the utility for <code class="highlighter-rouge">border-style</code>, you must use the <a href="#border-shorthand">border shorthand</a> if your element does not already have a border. Border style cannot be changed across different breakpoints</p>
+
+<div class="site-c-showcase">
+  <div class="vads-l-row">
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-style--solid
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">solid</p>
+    <div class="vads-u-background-color--gray-lightest vads-u-border--1px vads-u-border-style--solid" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-style--dashed
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">dashed</p>
+    <div class="vads-u-background-color--gray-lightest vads-u-border--1px vads-u-border-style--dashed" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+      <div class="site-c-showcase__col vads-l-col--12 vads-u-display--flex medium-screen:vads-u-justify-content--space-between medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div>
+    <p class="site-c-utility-class medium-screen:vads-u-margin-top--2 medium-screen:vads-u-margin-bottom--0p5">
+      .vads-u-border-style--dotted
+    </p>
+  </div>
+
+  <div class="vads-u-display--flex vads-u-align-items--center">
+    <p class="site-c-utility-value vads-u-margin-y--0 vads-u-margin-right--2">dotted</p>
+    <div class="vads-u-background-color--gray-lightest vads-u-border--1px vads-u-border-style--dotted" style="width: 40px; height: 40px;">
+    </div>
+  </div>
+</div>
+    
+  </div>
+</div>
+
+<h2 id="border-color">Border color</h2>
+<p><strong>Note:</strong> To use the utility for <code class="highlighter-rouge">border-color</code>, you must use the <a href="#border-shorthand">border shorthand</a> if your element does not already have a border. Border color cannot be changed across different breakpoints.</p>
+
+<div class="site-c-showcase">
+  <h4>Base colors</h4>
+  <div class="vads-l-row vads-u-flex-direction--column">
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--base" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--base" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--base</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--base"></span>
+      #212121
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--white" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--white" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--white</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--white"></span>
+      #ffffff
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--black" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--black" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--black</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--black"></span>
+      #000000
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--orange" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--orange" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--orange</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--orange"></span>
+      #eb7f29
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--link-default" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--link-default" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--link-default</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--link-default"></span>
+      #004795
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--warning-message" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--warning-message" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--warning-message</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--warning-message"></span>
+      #fac922
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gibill-accent" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gibill-accent" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gibill-accent</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gibill-accent"></span>
+      #fff1d2
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary"></span>
+      #0071bb
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-darker" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-darker" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-darker</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-darker"></span>
+      #003e73
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-darkest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-darkest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-darkest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-darkest"></span>
+      #112e51
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-alt</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-alt"></span>
+      #02bfe7
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-alt-dark</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-alt-dark"></span>
+      #00a6d2
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-darkest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-darkest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-alt-darkest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-alt-darkest"></span>
+      #046b99
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-alt-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-alt-light"></span>
+      #9bdaf1
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--primary-alt-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--primary-alt-lightest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--primary-alt-lightest"></span>
+      #e1f3f8
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--secondary</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--secondary"></span>
+      #e31c3d
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--secondary-dark</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--secondary-dark"></span>
+      #cd2026
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-darkest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-darkest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--secondary-darkest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--secondary-darkest"></span>
+      #981b1e
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--secondary-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--secondary-light"></span>
+      #e59393
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--secondary-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--secondary-lightest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--secondary-lightest"></span>
+      #f9dede
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h4>Grayscale</h4>
+  <div class="vads-l-row vads-u-flex-direction--column">
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray"></span>
+      #5b616b
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-dark</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-dark"></span>
+      #323a45
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-medium" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-medium" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-medium</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-medium"></span>
+      #757575
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-light"></span>
+      #aeb0b5
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-light-alt" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-light-alt" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-light-alt</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-light-alt"></span>
+      #eeeeee
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-lighter</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-lighter"></span>
+      #d6d7d9
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-lightest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-lightest"></span>
+      #f1f1f1
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-warm-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-warm-dark" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-warm-dark</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-warm-dark"></span>
+      #494440
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-warm-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-warm-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-warm-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-warm-light"></span>
+      #e4e2e0
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-cool-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gray-cool-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gray-cool-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gray-cool-light"></span>
+      #dce4ef
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h4>Tertiary colors</h4>
+  <div class="vads-l-row vads-u-flex-direction--column">
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gold</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gold"></span>
+      #fdb81e
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-darker" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-darker" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gold-darker</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gold-darker"></span>
+      #988530
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gold-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gold-light"></span>
+      #f9c642
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gold-lighter</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gold-lighter"></span>
+      #fad980
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--gold-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--gold-lightest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--gold-lightest"></span>
+      #fff1d2
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--green</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--green"></span>
+      #2e8540
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-darker" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-darker" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--green-darker</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--green-darker"></span>
+      #195c27
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--green-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--green-light"></span>
+      #4aa564
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--green-lighter</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--green-lighter"></span>
+      #94bfa2
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--green-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--green-lightest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--green-lightest"></span>
+      #e7f4e4
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--cool-blue</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--cool-blue"></span>
+      #205493
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue-light" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue-light" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--cool-blue-light</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--cool-blue-light"></span>
+      #4773aa
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue-lighter" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--cool-blue-lighter</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--cool-blue-lighter"></span>
+      #8ba6ca
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--cool-blue-lightest" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--cool-blue-lightest</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--cool-blue-lightest"></span>
+      #dce4ef
+    </div>
+  </div>
+</div>
+    
+  </div>
+
+  <h4>Hub colors</h4>
+  <div class="vads-l-row vads-u-flex-direction--column">
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-health-care" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-health-care" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-health-care</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-health-care"></span>
+      #3f57a6
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-education" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-education" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-education</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-education"></span>
+      #21827f
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-disability" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-disability" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-disability</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-disability"></span>
+      #a23737
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-careers" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-careers" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-careers</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-careers"></span>
+      #bd5727
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-pension" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-pension" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-pension</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-pension"></span>
+      #3e8520
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-housing" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-housing" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-housing</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-housing"></span>
+      #8e704f
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-life-insurance" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-life-insurance" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-life-insurance</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-life-insurance"></span>
+      #6f7a41
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-burials" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-burials" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-burials</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-burials"></span>
+      #357ab2
+    </div>
+  </div>
+</div>
+    
+      <div class="vads-l-col site-c-showcase__col vads-u-display--flex medium-screen:vads-u-align-items--center vads-u-flex-direction--column medium-screen:vads-u-flex-direction--row">
+  <div class="vads-u-display--flex vads-u-margin-right--2">
+    <div class="vads-u-background-color--white vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-records" style="width: 20px; height: 20px;"></div>
+    </div>
+    <div class="vads-u-background-color--black vads-u-padding--1">
+      <div class="vads-u-border--2px vads-u-border-color--hub-records" style="width: 20px; height: 20px;"></div>
+    </div>
+  </div>
+  <div>
+    <code class="code">.vads-u-border-color--hub-records</code>
+  </div>
+  <div class="medium-screen:vads-u-margin-left--auto">
+    <div class="utility-value-color">
+      <span class="utility-value-color__chip vads-u-background-color--hub-records"></span>
+      #864381
+    </div>
+  </div>
+</div>
+    
+  </div>
+</div>
+
+<h2 id="responsive-prefixes">Responsive prefixes</h2>
+
+<p>Add a responsive breakpoint prefix separated with a : to target a utility at a responsive breakpoint and higher, following a mobile-first methodology. Only the <a href="#border-shorthand">border shorthand</a> property is available with responsive prefixes.</p>
+
+<h3 id="example">Example</h3>
+
+<div class="sg-responsive-preview">
+  <div class="sg-responsive-preview__size-buttons">
+    <button class="sg-responsive-preview__size-button" type="button" data-size="320">
+      xsmall<span class="vads-u-display--none medium-screen:vads-u-display--inline">-screen</span>
+    </button>
+    <button class="sg-responsive-preview__size-button" type="button" data-size="481">
+      small<span class="vads-u-display--none medium-screen:vads-u-display--inline">-screen</span>
+    </button>
+    <button class="sg-responsive-preview__size-button" type="button" data-size="768">
+      medium<span class="vads-u-display--none medium-screen:vads-u-display--inline">-screen</span>
+    </button>
+    <button class="sg-responsive-preview__size-button is-current" type="button" data-size="1008">
+      small-desktop<span class="vads-u-display--none medium-screen:vads-u-display--inline">-screen</span>
+    </button>
+    <button class="sg-responsive-preview__size-button" type="button" data-size="1201">
+      large<span class="vads-u-display--none medium-screen:vads-u-display--inline">-screen</span>
+    </button>
+  </div>
+  <div class="iframe__preview">
+    <iframe title="Borders" class="responsive-iframe" src="html/borders-responsive.html" data-width="1008" allowfullscreen="true" allowtransparency="true" height="200"></iframe>
+  </div>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlborders-responsivehtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlborders-responsivehtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: iframe
+---
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"vads-l-row vads-u-padding--2"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"vads-l-col--12 medium-screen:vads-l-col--6 large-screen:vads-u-padding-x--2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"vads-u-margin--0 vads-u-padding-x--2 large-screen:vads-u-border--3px"</span><span class="err">"</span><span class="nt">&gt;</span>Foo<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"vads-l-col--12 medium-screen:vads-l-col--6 large-screen:vads-u-padding-x--2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"vads-u-margin--0 vads-u-padding-x--2 vads-u-border-top--1px medium-screen:vads-u-border-top--0 medium-screen:vads-u-border-left--1px large-screen:vads-u-border--3px"</span><span class="nt">&gt;</span>Bar<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<table class="usa-table usa-table-borderless">
+  <thead>
+    <tr>
+      <th>breakpoint-name</th>
+      <th>width</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>xsmall-screen</code></td>
+      <td>320px</td>
+    </tr>
+    <tr>
+      <td><code>small-screen</code></td>
+      <td>481px</td>
+    </tr>
+    <tr>
+      <td><code>medium-screen</code></td>
+      <td>768px</td>
+    </tr>
+    <tr>
+      <td><code>small-desktop-screen</code></td>
+      <td>1008px</td>
+    </tr>
+    <tr>
+      <td><code>large-screen</code></td>
+      <td>1201px</td>
+    </tr>
+  </tbody>
+</table>
+
+        </main>
+      </div>
+      
+
+    </div>
+
+    <footer class="footer vads-u-padding-y--5" role="contentinfo">
+  <div class="footer-inner">
+    <div class="row vads-u-margin-top--0" id="va-footer-supplementallinks">
+      <div>
+        <ul class="va-footer-linkgroup--inline" id="footer-supplemental">
+          <li><a href="/vets-design-system-documentation/documentation/whats-new.html">What’s New?</a></li>
+          <li><a href="http://va.gov/playbook/">Vets.gov Playbook</a></li>
+          <li><a target="_blank" href="https://www.section508.va.gov/">Accessibility</a></li>
+          <li><a href="http://va.gov/privacy/">Privacy</a></li>
+
+        </ul>
+      </div>
+    <div>
+      <div class="footer-seal">
+        <abbr title="Department of Veterans Affairs">VA</abbr> | U.S. Department of Veterans Affairs
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</footer>
+
+
+
+
+    <script type="text/javascript" src="/vets-design-system-documentation/vendor/javascripts/bundle.js" charset="utf-8"></script>
+    <script src="/vets-design-system-documentation/assets/javascripts/site.js"></script>
+  </body>
+
+</html>

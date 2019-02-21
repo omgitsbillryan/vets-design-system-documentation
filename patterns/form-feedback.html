@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Form feedback - VA.gov Design System </title>
+  <meta name="description" content="Form Feedback">
+
+  <link rel="stylesheet" href="/vets-design-system-documentation/formation.min.css">
+  <link rel="stylesheet" href="/vets-design-system-documentation/assets/stylesheets/application.css">
+
+  <link rel="canonical" href="https://www.vets.gov/vets-design-system-documentation/patterns/form-feedback.html">
+  <link rel="alternate" type="application/rss+xml" title="VA.gov Design System" href="https://www.vets.gov/vets-design-system-documentation/feed.xml">
+
+
+  <script src="/vets-design-system-documentation/vendor/javascripts/uswds.min.js"></script>
+
+</head>
+
+
+  <body>
+
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+
+<section class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner-header">
+      <div class="" style="padding-left:24px;">
+      <img src="/vets-design-system-documentation/img/favicons/favicon-57.png" alt="U.S. flag">
+      <p>An official website of the United States government</p>
+      <button class="usa-accordion-button usa-banner-button"
+        aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner-button-text">Here's how you know</span>
+      </button>
+      </div>
+    </header>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/vets-design-system-documentation/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/vets-design-system-documentation/img/icon-https.svg" alt="Https">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The site is secure.</strong>
+            <br>
+            The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<header class="site-c-header" role="banner">
+
+  <div class="site-l-wrapper">
+    <div class="site-c-header__masthead">
+      <div class="site-c-header__logo" id="extended-logo">
+        <em class="site-c-header__logo-text">
+          <a class="site-c-header__logo-link" title="VA.gov Design System homepage" href="/vets-design-system-documentation/"><strong>VA.gov</strong> | Design System</a>
+        </em>
+      </div>
+      <div class="site-c-header__utility-links">
+        <a href="/vets-design-system-documentation/documentation/whats-new.html" class="usa-button site-button-inverse">What’s new?</a>
+        <a href="/vets-design-system-documentation/documentation/code-and-design.html" class="usa-button vads-u-margin--0">Get code and design files</a>
+      </div>
+      <button class="site-c-header__open-mobile-nav-button" id="open-mobile-nav-button" aria-label="Open navigation menu">Menu</button>
+    </div>
+    <nav class="site-c-header__nav">
+      <ul class="site-c-header__nav-list">
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/documentation">Documentation</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/content-style-guide">Content</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/design">Design</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/components">Components</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/utilities">Utilities</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link  current " href="/vets-design-system-documentation/patterns">Patterns</a>
+        </li>
+        <li class="site-c-header__nav-item">
+          <a class="site-c-header__nav-item__link " href="/vets-design-system-documentation/layout">Layout</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="site-c-mobile-nav" id="mobile-nav">
+  <button id="close_mobile_nav_button" class="site-c-mobile-nav__close-button" type="button" aria-label="Close this menu"><i class="fas fa-times"></i></button>
+  <div class="usa-accordion ">
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button"
+      aria-expanded="false" aria-controls="nav-a1">Documentation</button>
+  </p>
+  <div id="nav-a1" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/code-and-design.html">Code and design files</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/designers.html">For designers</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/naming.html">Naming Convention</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/documentation/whats-new.html">What’s New?</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a2">
+      Content
+    </button>
+  </p>
+  <div id="nav-a2" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/abbreviations-and-acronyms.html">Abbreviations and acronyms</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/buttons.html">Button labels</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/capitalization.html">Capitalization</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/content-principles.html">Content principles</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/contractions.html">Contractions</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/dates-and-numbers.html">Dates and numbers</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/error-messages.html">Error messages</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/links.html">Links</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/lists.html">Lists</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/naming.html">Naming</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/page-titles-and-section-titles.html">Page titles and section titles</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/phone-numbers-and-time-zones.html">Phone numbers and time zones</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/punctuation.html">Punctuation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/seo.html">Writing for SEO</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/ui-elements.html">User interface elements</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/va-forms.html">VA forms</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/we-us-you.html">We, Us, You</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/web-policies-and-directives.html">Web policies and directives</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/content-style-guide/word-list.html">Word list</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a3">
+      Design
+    </button>
+  </p>
+  <div id="nav-a3" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/color-palette.html">Color Palette</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/icons.html">Icons</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/spacing-units.html">Spacing units</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/design/typography.html">Typography</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a4">
+      Components
+    </button>
+  </p>
+  <div id="nav-a4" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/accordions.html">Accordions</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/additional-info.html">Additional Info</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/address-block.html">Address Block</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/alertboxes.html">Alert Boxes</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/breadcrumbs.html">Breadcrumbs</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/buttons.html">Buttons</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/global-navigation.html">Global Navigation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/horizontal-rules.html">Horizontal Rules</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/labels.html">Labels</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/lists.html">Lists</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/loading-indicators.html">Loading Indicators</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/modal.html">Modal</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/pagination.html">Pagination</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/progress-bars.html">Progress Bars</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/sidenav.html">Sidenav</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/components/tables.html">Tables</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a5">
+      Utilities
+    </button>
+  </p>
+  <div id="nav-a5" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/background-color.html">Background color</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/border.html">Border</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/color.html">Color</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/display.html">Display</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/flexbox.html">Flexbox</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-family.html">Font family</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-size.html">Font size</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-style.html">Font style</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/font-weight.html">Font weight</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/height-and-width.html">Height and width</a>
+            </li>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/line-height.html">Line height</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/margins.html">Margins</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/measure.html">Measure</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/padding.html">Padding</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/text-align.html">Text align</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/text-decoration.html">Text decoration</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/utilities/visibility.html">Visibility</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="true" aria-controls="nav-a6">
+      Patterns
+    </button>
+  </p>
+  <div id="nav-a6" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/color-usage.html">Color usage</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/content-presentation.html">Content presentation</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link  current " href="/vets-design-system-documentation/patterns/form-feedback.html">Form feedback</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/form-templates.html">Form templates</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/patterns/navigation.html">Navigation</a>
+            </li>
+          
+        
+      
+    </ul>
+  </div>
+
+
+  <!-- Use the accurate heading level to maintain the document outline -->
+  <p class="usa-accordion-heading site-c-mobile-nav__accordion-heading">
+    <button class="usa-accordion-button site-c-mobile-nav__accordion-button" aria-expanded="false" aria-controls="nav-a7">
+      Layout
+    </button>
+  </p>
+  <div id="nav-a7" class="usa-accordion-content site-c-mobile-nav__accordion-content">
+    <ul class="site-c-mobile-nav-list">
+      <li class="site-c-mobile-nav-list__item">
+        <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/index.html">Overview</a>
+      </li>
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/flexbox-grid.html">Flexbox Grid</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="site-c-mobile-nav-list__item">
+              <a class="site-c-mobile-nav-list__link " href="/vets-design-system-documentation/layout/grid.html">Float Grid</a>
+            </li>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+    </ul>
+  </div>
+
+</div>
+</div>
+
+    <div class="site-c-content">
+      
+      <div class="site-c-content__nav">
+        
+          <ul class="site-c-sidenav-list">
+  <li class="site-c-sidenav-list__item ">
+    <a class="site-c-sidenav-list__link " href="index.html">Overview</a>
+    
+  </li>
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/patterns/color-usage.html">Color usage</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#success">Success</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#warnings">Warnings</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#informational">Informational</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#calls-to-action">Calls to action</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/patterns/content-presentation.html">Content presentation</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#information-callouts">Information callouts</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#expandable-content">Expandable content</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item  current ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/patterns/form-feedback.html">Form feedback</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#error-messages">Error messages</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/patterns/form-templates.html">Form templates</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#address-form">Address Form</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#name-form">Name Form</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <li class="site-c-sidenav-list__item ">
+          <a class="site-c-sidenav-list__link " href="/vets-design-system-documentation/patterns/navigation.html">Navigation</a>
+          
+            <ul class="site-c-sidenav-list__sub">
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#subsections-within-a-content-section">Subsections within a content section</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#related-info-outside-a-content-section">Related info outside a content section</a></li>
+              
+                <li class="site-c-sidenav-list__sub-item">
+                  <a class="site-c-sidenav-list__sub__link" href="#related-topics-outside-a-section">Related topics outside a section</a></li>
+              
+            </ul>
+          
+        </li>
+      
+    
+  
+</ul>
+        
+      </div>
+      <div class="site-c-content__content">
+        <main id="main-content" class="site-l-content-wrapper--styleguide">
+          <h1 id="form-feedback">Form Feedback</h1>
+
+<div class="va-introtext">
+  <p>Error messages let users know when they have made a mistake on a form field.</p>
+</div>
+
+<hr />
+
+<h2 id="error-messages">Error messages</h2>
+
+<div class="va-introtext">
+  <p>Error messages let users know when they have made a mistake on a form field.</p>
+</div>
+
+<p>In all cases, only show error validation messages or stylings after a user has interacted with a particular field.</p>
+
+<h3 id="errors-on-text-inputs">Errors on text inputs</h3>
+
+<p>For all text inputs, the error message is placed between the label and the input.</p>
+
+<div class="site-c-showcase">
+<div class="usa-input-error">
+  <label class="usa-input-error-label" for="text-input-161">Label</label>
+  <span class="usa-input-error-message" role="alert" id="text-input-161-error-message">
+  <span class="sr-only">Error</span> Error message</span>
+  <input type="text" aria-describedby="text-input-161-error-message" id="text-input-161" placeholder="Placeholder" name="Name" maxlength="255" />
+</div>
+
+<div class="usa-input-error">
+  <label class="usa-input-error-label" for="number-input-155">Please pick a number</label>
+  <span class="usa-input-error-message" role="alert" id="number-input-155-error-message"><span class="sr-only">Error</span> Error message</span>
+  <input type="number" min="1" max="10" aria-describedby="number-input-155-error-message" id="number-input-155" name="Name" placeholder="Numbers are between 1 and 10" />
+</div>
+
+<div class="usa-input-error">
+  <label id="textarea-160-label" class="usa-input-error-label" for="textarea-160">Label</label>
+  <span class="usa-input-error-message" role="alert" id="textarea-160-error-message">
+    <span class="sr-only">Error</span>
+    Error message
+  </span>
+  <textarea class="" aria-describedby="textarea-160-error-message" aria-labelledby="textarea-160-label" id="textarea-160" placeholder="Placeholder" name="Name" maxlength="255"></textarea>
+</div>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlerror-text-inputshtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlerror-text-inputshtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">for=</span><span class="s">"text-input-161"</span><span class="nt">&gt;</span>Label<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"text-input-161-error-message"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span> Error message<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">aria-describedby=</span><span class="s">"text-input-161-error-message"</span> <span class="na">id=</span><span class="s">"text-input-161"</span> <span class="na">placeholder=</span><span class="s">"Placeholder"</span> <span class="na">name=</span><span class="s">"Name"</span> <span class="na">maxlength=</span><span class="s">"255"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">for=</span><span class="s">"number-input-155"</span><span class="nt">&gt;</span>Please pick a number<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"number-input-155-error-message"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span> Error message<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"number"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"10"</span> <span class="na">aria-describedby=</span><span class="s">"number-input-155-error-message"</span> <span class="na">id=</span><span class="s">"number-input-155"</span> <span class="na">name=</span><span class="s">"Name"</span> <span class="na">placeholder=</span><span class="s">"Numbers are between 1 and 10"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">id=</span><span class="s">"textarea-160-label"</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">for=</span><span class="s">"textarea-160"</span><span class="nt">&gt;</span>Label<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"textarea-160-error-message"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span>
+    Error message
+  <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">""</span> <span class="na">aria-describedby=</span><span class="s">"textarea-160-error-message"</span> <span class="na">aria-labelledby=</span><span class="s">"textarea-160-label"</span> <span class="na">id=</span><span class="s">"textarea-160"</span> <span class="na">placeholder=</span><span class="s">"Placeholder"</span> <span class="na">name=</span><span class="s">"Name"</span> <span class="na">maxlength=</span><span class="s">"255"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<h4 id="guidance">Guidance</h4>
+
+<p>In general, when there is an error on a form, a few things must happen.</p>
+
+<ul>
+  <li>The form field and its corresponding <code class="highlighter-rouge">&lt;label&gt;</code> are wrapped in a container with a class name of <code class="highlighter-rouge">usa-input-error</code>. This will provide a thick border and padding to visual indicate an error message to users who might have difficulty perceiving contrast. It also changes the border of the input to red as a secondary indicator.</li>
+  <li>An error message is placed between the label and the form field.</li>
+  <li>The form field receives an <code class="highlighter-rouge">aria-describedby</code> attribute that references the <code class="highlighter-rouge">id</code> of the error message.</li>
+</ul>
+
+<p>The HTML for a typical error is:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message undefined"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"file-input-149-error-message"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span>
+  Error message
+<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h3 id="error-on-select-boxes">Error on select boxes</h3>
+
+<p>Select boxes a pattern similar to text inputs. The guidance is similar as well.</p>
+
+<div class="site-c-showcase">
+<div class="usa-input-error">
+  <label class="usa-input-error-label" for="select-159">select label</label>
+  <span class="usa-input-error-message" id="select-159-error-message" role="alert">This is the error message</span>
+  <select aria-describedby="select-159-error-message" id="select-159" name="Attribute name">
+    <option value=""></option>
+    <option value="first option">first option</option>
+    <option value="second option">second option</option>
+    <option value="third option">third option</option>
+  </select>
+</div>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlerror-select-boxhtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlerror-select-boxhtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">for=</span><span class="s">"select-159"</span><span class="nt">&gt;</span>select label<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">id=</span><span class="s">"select-159-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>This is the error message<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;select</span> <span class="na">aria-describedby=</span><span class="s">"select-159-error-message"</span> <span class="na">id=</span><span class="s">"select-159"</span> <span class="na">name=</span><span class="s">"Attribute name"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">""</span><span class="nt">&gt;&lt;/option&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"first option"</span><span class="nt">&gt;</span>first option<span class="nt">&lt;/option&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"second option"</span><span class="nt">&gt;</span>second option<span class="nt">&lt;/option&gt;</span>
+    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"third option"</span><span class="nt">&gt;</span>third option<span class="nt">&lt;/option&gt;</span>
+  <span class="nt">&lt;/select&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<h4 id="guidance-1">Guidance</h4>
+
+<p>Error messages are generally the same. The error message is slightly different in that it does not include the screen reader-only “Error” text.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">id=</span><span class="s">"select-159-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>This is the error message<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h3 id="errors-on-radio-buttons">Errors on radio buttons</h3>
+
+<div class="site-c-showcase">
+<fieldset class="fieldset-input usa-input-error">
+  <legend class="legend-label usa-input-error-label">Radio Buttons</legend>
+  <span class="usa-input-error-message" role="alert" id="defaultId-error-message">
+    <span class="sr-only">Error</span> Radio Button errorMessage</span>
+  <div class="form-radio-buttons">
+    <div class="radio-button">
+      <input type="radio" autocomplete="false" id="defaultId-0" name="defaultName" value="option 1" />
+      <label name="defaultName-0-label" for="defaultId-0">option 1</label>
+    </div>
+  </div>
+  <div class="form-radio-buttons">
+    <div class="radio-button">
+      <input type="radio" autocomplete="false" checked="" id="defaultId-1" name="defaultName" value="option 2" />
+      <label name="defaultName-1-label" for="defaultId-1">option 2</label>
+    </div>
+  </div>
+  <div class="form-expanding-group">
+    <div class="form-radio-buttons">
+      <div class="radio-button">
+        <input type="radio" autocomplete="false" id="defaultId-2" name="defaultName" value="expanding option 3" />
+        <label name="defaultName-2-label" for="defaultId-2">option 3 label</label>
+      </div>
+    </div>
+  </div>
+</fieldset>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlerror-radio-buttonshtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlerror-radio-buttonshtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;fieldset</span> <span class="na">class=</span><span class="s">"fieldset-input usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;legend</span> <span class="na">class=</span><span class="s">"legend-label usa-input-error-label"</span><span class="nt">&gt;</span>Radio Buttons<span class="nt">&lt;/legend&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"defaultId-error-message"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span> Radio Button errorMessage<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-radio-buttons"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"radio-button"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">id=</span><span class="s">"defaultId-0"</span> <span class="na">name=</span><span class="s">"defaultName"</span> <span class="na">value=</span><span class="s">"option 1"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">name=</span><span class="s">"defaultName-0-label"</span> <span class="na">for=</span><span class="s">"defaultId-0"</span><span class="nt">&gt;</span>option 1<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-radio-buttons"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"radio-button"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">checked=</span><span class="s">""</span> <span class="na">id=</span><span class="s">"defaultId-1"</span> <span class="na">name=</span><span class="s">"defaultName"</span> <span class="na">value=</span><span class="s">"option 2"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">name=</span><span class="s">"defaultName-1-label"</span> <span class="na">for=</span><span class="s">"defaultId-1"</span><span class="nt">&gt;</span>option 2<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-expanding-group"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-radio-buttons"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"radio-button"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">id=</span><span class="s">"defaultId-2"</span> <span class="na">name=</span><span class="s">"defaultName"</span> <span class="na">value=</span><span class="s">"expanding option 3"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">name=</span><span class="s">"defaultName-2-label"</span> <span class="na">for=</span><span class="s">"defaultId-2"</span><span class="nt">&gt;</span>option 3 label<span class="nt">&lt;/label&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/fieldset&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<h4 id="guidance-2">Guidance</h4>
+
+<ul>
+  <li>Radio buttons typically appear inside of <code class="highlighter-rouge">&lt;fieldset&gt;</code>s. The class name of <code class="highlighter-rouge">usa-input-error</code> may be placed on the <code class="highlighter-rouge">&lt;fieldset&gt;</code> that contains all of the radio buttons.</li>
+  <li>The error message is placed just below the <code class="highlighter-rouge">&lt;legend&gt;</code></li>
+</ul>
+
+<h3 id="errors-on-checkboxes">Errors on checkboxes</h3>
+
+<p>Unlike other form elements, error messages for checkboxes appear below</p>
+
+<h4 id="error-message-above-checkbox">Error message above checkbox</h4>
+
+<div class="site-c-showcase">
+<div class="form-checkbox usa-input-error">
+  <input type="checkbox" autocomplete="false" aria-describedby="checkbox-140-error-message" id="checkbox-140" />
+  <label class="usa-input-error-label" name="undefined-label" for="checkbox-140">Checkbox 1
+  </label>
+  <span class="usa-input-error-message" role="alert" id="checkbox-140-error-message">
+    <span class="sr-only">Error</span>
+    Error message
+  </span>
+</div>
+
+<div class="form-checkbox usa-input-error">
+  <span class="label-above-checkbox">If you don’t find your school in the search results, then check the box to enter in your school information manually.</span>
+  <input type="checkbox" autocomplete="false" aria-describedby="checkbox-141-error-message" id="checkbox-141" />
+  <label class="usa-input-error-label" name="undefined-label" for="checkbox-141">Checkbox 2</label>
+  <span class="usa-input-error-message" role="alert" id="checkbox-141-error-message">
+    <span class="sr-only">Error</span>
+    Error message
+  </span>
+</div>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlerror-checkboxhtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlerror-checkboxhtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-checkbox usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">aria-describedby=</span><span class="s">"checkbox-140-error-message"</span> <span class="na">id=</span><span class="s">"checkbox-140"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">name=</span><span class="s">"undefined-label"</span> <span class="na">for=</span><span class="s">"checkbox-140"</span><span class="nt">&gt;</span>Checkbox 1
+  <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"checkbox-140-error-message"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span>
+    Error message
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-checkbox usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"label-above-checkbox"</span><span class="nt">&gt;</span>If you don’t find your school in the search results, then check the box to enter in your school information manually.<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">aria-describedby=</span><span class="s">"checkbox-141-error-message"</span> <span class="na">id=</span><span class="s">"checkbox-141"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">name=</span><span class="s">"undefined-label"</span> <span class="na">for=</span><span class="s">"checkbox-141"</span><span class="nt">&gt;</span>Checkbox 2<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"checkbox-141-error-message"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span>
+    Error message
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<h4 id="error-message-with-a-checkbox-group">Error message with a checkbox group</h4>
+
+<div class="site-c-showcase">
+<fieldset class="fieldset-input usa-input-error">
+  <legend class="legend-label usa-input-error-label">Checkbox group</legend>
+  <span class="usa-input-error-message" role="alert" id="default-error-message">
+    <span class="sr-only">Error:</span> This is an error message
+  </span>
+  <div class="form-expanding-group">
+    <div class="form-checkbox-buttons">
+      <input type="checkbox" autocomplete="false" id="default-0" value="value" />
+      <label name="undefined-0-label" for="default-0">Checkbox label</label>
+    </div>
+  </div>
+  <div class="form-expanding-group">
+    <div class="form-checkbox-buttons">
+      <input type="checkbox" autocomplete="false" id="default-1" value="value" />
+      <label name="undefined-1-label" for="default-1">Checkbox label</label>
+    </div>
+  </div>
+</fieldset>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlerror-checkbox-grouphtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlerror-checkbox-grouphtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;fieldset</span> <span class="na">class=</span><span class="s">"fieldset-input usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;legend</span> <span class="na">class=</span><span class="s">"legend-label usa-input-error-label"</span><span class="nt">&gt;</span>Checkbox group<span class="nt">&lt;/legend&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"default-error-message"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error:<span class="nt">&lt;/span&gt;</span> This is an error message
+  <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-expanding-group"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-checkbox-buttons"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">id=</span><span class="s">"default-0"</span> <span class="na">value=</span><span class="s">"value"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">name=</span><span class="s">"undefined-0-label"</span> <span class="na">for=</span><span class="s">"default-0"</span><span class="nt">&gt;</span>Checkbox label<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-expanding-group"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-checkbox-buttons"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">autocomplete=</span><span class="s">"false"</span> <span class="na">id=</span><span class="s">"default-1"</span> <span class="na">value=</span><span class="s">"value"</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">name=</span><span class="s">"undefined-1-label"</span> <span class="na">for=</span><span class="s">"default-1"</span><span class="nt">&gt;</span>Checkbox label<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/fieldset&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<h5 id="guidance-3">Guidance</h5>
+
+<ul>
+  <li>Checkbox groups typically appear inside of <code class="highlighter-rouge">&lt;fieldset&gt;</code>s. The class name of <code class="highlighter-rouge">usa-input-error</code> may be placed on the <code class="highlighter-rouge">&lt;fieldset&gt;</code> that contains all of the checkboxes.</li>
+  <li>The error message is placed just below the <code class="highlighter-rouge">&lt;legend&gt;</code></li>
+</ul>
+
+<h3 id="error-message-on-file-input">Error message on file input</h3>
+
+<div class="site-c-showcase">
+<div class="usa-input-error">
+  <label class="usa-input-error-label" for="file-input-149"></label>
+  <span class="usa-input-error-message undefined" role="alert" id="file-input-149-error-message">
+    <span class="sr-only">Error</span>
+    Error message
+  </span>
+  <label role="button" tabindex="0" for="file-input-149" class="usa-button usa-button-secondary">Upload some files</label>
+  <input type="file" multiple="" style="display:none;" accept="String" id="file-input-149" name="Name" />
+</div>
+</div>
+
+<div class="usa-accordion-bordered">
+<div>
+<button class="usa-accordion-button" aria-controls="htmlerror-file-inputhtml"><span class="fas fa-code"></span> View code snippet</button>
+<div id="htmlerror-file-inputhtml" class="usa-accordion-content">
+      <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"usa-input-error"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"usa-input-error-label"</span> <span class="na">for=</span><span class="s">"file-input-149"</span><span class="nt">&gt;&lt;/label&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"usa-input-error-message undefined"</span> <span class="na">role=</span><span class="s">"alert"</span> <span class="na">id=</span><span class="s">"file-input-149-error-message"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/span&gt;</span>
+    Error message
+  <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">tabindex=</span><span class="s">"0"</span> <span class="na">for=</span><span class="s">"file-input-149"</span> <span class="na">class=</span><span class="s">"usa-button usa-button-secondary"</span><span class="nt">&gt;</span>Upload some files<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"file"</span> <span class="na">multiple=</span><span class="s">""</span> <span class="na">style=</span><span class="s">"display:none;"</span> <span class="na">accept=</span><span class="s">"String"</span> <span class="na">id=</span><span class="s">"file-input-149"</span> <span class="na">name=</span><span class="s">"Name"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>      </div>
+    </div>
+</div>
+</div>
+
+<h4 id="guidance-4">Guidance</h4>
+
+<p>The guidance for file inputs is the same as the text inputs.</p>
+
+        </main>
+      </div>
+      
+
+    </div>
+
+    <footer class="footer vads-u-padding-y--5" role="contentinfo">
+  <div class="footer-inner">
+    <div class="row vads-u-margin-top--0" id="va-footer-supplementallinks">
+      <div>
+        <ul class="va-footer-linkgroup--inline" id="footer-supplemental">
+          <li><a href="/vets-design-system-documentation/documentation/whats-new.html">What’s New?</a></li>
+          <li><a href="http://va.gov/playbook/">Vets.gov Playbook</a></li>
+          <li><a target="_blank" href="https://www.section508.va.gov/">Accessibility</a></li>
+          <li><a href="http://va.gov/privacy/">Privacy</a></li>
+
+        </ul>
+      </div>
+    <div>
+      <div class="footer-seal">
+        <abbr title="Department of Veterans Affairs">VA</abbr> | U.S. Department of Veterans Affairs
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</footer>
+
+
+
+
+    <script type="text/javascript" src="/vets-design-system-documentation/vendor/javascripts/bundle.js" charset="utf-8"></script>
+    <script src="/vets-design-system-documentation/assets/javascripts/site.js"></script>
+  </body>
+
+</html>
