@@ -1,7 +1,10 @@
 pipeline {
 
   agent {
-    dockerfile true // builds and uses root 'Dockerfile'
+    dockerfile {
+      // clever hack'ish way to give 'jekyll' user proper permissions
+      args '-v /etc/passwd:/etc/passwd -v /etc/group:/etc/group'
+    }
   }
 
   stages {
