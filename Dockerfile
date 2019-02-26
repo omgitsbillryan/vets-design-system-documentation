@@ -6,6 +6,6 @@ RUN groupadd --gid 504 jenkins \
   && usermod -a -G jenkins jekyll \
   && usermod -g jenkins jekyll
 
-RUN npm config set unsafe-perm true && npm install -g s3-cli
+RUN npm config set unsafe-perm true && npm install s3-cli
 
 WORKDIR /srv/jekyll
