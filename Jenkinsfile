@@ -1,7 +1,6 @@
 pipeline {
 
   agent {
-    label 'vetsgov-general-purpose'
     dockerfile true // builds and uses root 'Dockerfile'
   }
 
