@@ -3,7 +3,7 @@ pipeline {
   agent {
     //label 'vetsgov-general-purpose'
     dockerfile {
-      args '-v /etc/passwd:/etc/passwd -v /etc/group:/etc/group'
+      args '-u 0:0'
     }
   }
 
