@@ -2,7 +2,9 @@ pipeline {
 
   agent {
     //label 'vetsgov-general-purpose'
-    dockerfile true
+    dockerfile {
+      args '-v /etc/passwd:/etc/passwd -v /etc/group:/etc/group'
+    }
   }
 
   stages {
