@@ -22,13 +22,14 @@ pipeline {
 
     stage('Build static site') {
       steps {
-        sh 'jekyll build'
+        sh 'mkdir -p _site_build/'
+        sh 'jekyll build --destination _site_build/'
       }
     }
 
     stage('Tar assets and upload to S3') {
       steps {
-        sh 'tar -cf _site.tar.bz2 _site/'
+        sh 'tar -cf _site.tar.bz2 _site_build/'
 
       }
     }
