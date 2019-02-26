@@ -1,10 +1,8 @@
 pipeline {
 
   agent {
-    docker {
-      label 'vetsgov-general-purpose'
-      dockerfile true // builds and uses root 'Dockerfile'
-    }
+    label 'vetsgov-general-purpose'
+    dockerfile true // builds and uses root 'Dockerfile'
   }
 
   stages {
@@ -29,7 +27,7 @@ pipeline {
     stage('Tar assets and upload to S3') {
       steps {
         sh 'tar -cf _site.tar.bz2 _site/'
-        
+
       }
     }
   }
