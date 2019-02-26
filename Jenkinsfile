@@ -2,9 +2,7 @@ pipeline {
 
   agent {
     //label 'vetsgov-general-purpose'
-    dockerfile {
-      args '-u 0:0'
-    }
+    dockerfile true
   }
 
   stages {
