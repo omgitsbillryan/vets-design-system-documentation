@@ -2,9 +2,7 @@ pipeline {
 
   agent {
     //label 'vetsgov-general-purpose'
-    dockerfile {
-      args '-u 0:0' // runs container to run as root   
-    }
+    dockerfile true
   }
 
   stages {
