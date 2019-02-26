@@ -1,9 +1,9 @@
 pipeline {
 
   agent {
+    //label 'vetsgov-general-purpose'
     dockerfile {
-      // clever hack'ish way to give 'jekyll' user proper permissions
-      args '-v /etc/passwd:/etc/passwd -v /etc/group:/etc/group'
+      args '-u 0:0' // runs container to run as root   
     }
   }
 
