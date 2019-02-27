@@ -8,7 +8,7 @@ pipeline {
   // npm creates the '.npm/' folder relative to $HOME which jenkins
   // does not set automatically which results in:
   //   Error: EACCES: permission denied, mkdir '/.npm'
-  environment { HOME = env.WORKSPACE }
+  environment { HOME = "${env.WORKSPACE}" }
 
   stages {
     stage('Checkout Code') {
