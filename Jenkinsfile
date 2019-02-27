@@ -31,7 +31,7 @@ pipeline {
 
     stage('Tar assets and upload to S3') {
       steps {
-        sh 'tar -cf _site.tar.bz2 _site_build/'
+        sh 'tar -cf _site.tar.bz2 _site/'
 
       }
     }
