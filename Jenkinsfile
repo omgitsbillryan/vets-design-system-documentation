@@ -19,6 +19,7 @@ pipeline {
 
     stage('Install npm dependencies') {
       steps {
+        sh 'echo $HOME'
         sh 'npm install'
       }
     }
