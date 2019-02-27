@@ -5,6 +5,11 @@ pipeline {
     dockerfile true
   }
 
+  // npm creates the '.npm/' folder relative to $HOME which jenkins
+  // does not set automatically which results in:
+  //   Error: EACCES: permission denied, mkdir '/.npm'
+  environment { HOME = '.' }
+
   stages {
     stage('Checkout Code') {
       steps {
