@@ -19,10 +19,13 @@ pipeline {
 
     stage('Install npm dependencies') {
       steps {
+        sh 'pwd'
         sh 'whoami'
         sh 'id -u jekyll'
         sh 'id -G jekyll'
         sh 'cd /srv'
+        sh 'ls -l'
+        sh 'cd /srv/jekyll'
         sh 'ls -l'
         sh 'npm install'
       }
