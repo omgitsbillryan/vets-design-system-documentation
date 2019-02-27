@@ -19,23 +19,13 @@ pipeline {
 
     stage('Install npm dependencies') {
       steps {
-        sh 'pwd'
-        sh 'id -u jekyll'
-        sh 'id -G jekyll'
-        sh 'cd /srv'
-        sh 'ls -l'
-        sh 'cd /srv/jekyll'
-        sh 'ls -l'
         sh 'npm install'
       }
     }
 
     stage('Build static site') {
       steps {
-        //sh 'mkdir -p _site_build/'
-        //sh 'touch _site_build/404.html'
-        //sh 'jekyll build --destination _site_build/'
-        sh 'jekyll build'
+        sh 'bundle install && jekyll build'
       }
     }
 
