@@ -4,8 +4,7 @@ FROM jekyll/builder:3.8
 
 RUN groupadd --gid 504 jenkins \
   && usermod -a -G jenkins jekyll \
-  && usermod -g jenkins jekyll \
-  && usermod -u 504 jekyll
+  && usermod -g jenkins jekyll
 
 RUN npm config set unsafe-perm true && npm install s3-cli
 
