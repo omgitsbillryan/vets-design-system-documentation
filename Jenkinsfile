@@ -25,9 +25,10 @@ pipeline {
 
     stage('Build static site') {
       steps {
-        sh 'mkdir -p _site_build/'
-        sh 'touch _site_build/404.html'
-        sh 'jekyll build --destination _site_build/'
+        //sh 'mkdir -p _site_build/'
+        //sh 'touch _site_build/404.html'
+        //sh 'jekyll build --destination _site_build/'
+        sh 'jekyll build'
       }
     }
 
