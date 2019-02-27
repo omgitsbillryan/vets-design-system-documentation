@@ -5,9 +5,10 @@ pipeline {
     dockerfile true
   }
 
-  // npm creates the '.npm/' folder relative to $HOME which jenkins
-  // does not set automatically which results in:
+  // $HOME defaults to '/' when not set, which results in:
   //   Error: EACCES: permission denied, mkdir '/.npm'
+  // jenkins runs docker using '-w <WORKSPACE>', so '.' points
+  // to that WORKSPACE
   environment { HOME = '.' }
 
   stages {
@@ -32,7 +33,7 @@ pipeline {
     stage('Tar assets and upload to S3') {
       steps {
         sh 'tar -cf _site.tar.bz2 _site/'
-
+        // TODO: perform upload to S3
       }
     }
   }
