@@ -21,12 +21,14 @@ pipeline {
     stage('Install npm dependencies') {
       steps {
         sh 'npm install'
+        sh 'bundle install'
       }
     }
 
     stage('Build static site') {
       steps {
-        sh 'bundle install && jekyll build'
+        sh 'npm run build'
+        sh 'jekyll build'
       }
     }
 
