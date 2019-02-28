@@ -33,8 +33,8 @@ pipeline {
     stage('Tar assets and upload to S3') {
       steps {
         echo "GIT_COMMIT={$GIT_COMMIT}"
-        sh 'webpack --verison'
-        sh 'gulp --version'
+        sh 'npx webpack --verison'
+        sh 'npx gulp --version'
         sh 'tar -cf _site.tar.bz2 _site/'
 
         withCredentials([[
